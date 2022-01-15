@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%
+    
+}
+.clear{
+    clear: both;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    position: relative;
+    background-image: url(../img/banner-01.jpg);
+    height: 900px;
+}
+#menu{
+    color: #fff;
+    background-color: black;
+    height: 900px;
+    opacity: 0.5;
+}
+#menu .menungang{
+    width: 100%;
+    display: flex;
+    justify-content: end; 
+    margin-bottom: 400px;
+}
+#menu .menungang li{  
+    padding: 15px;
+    font-weight: 600;
+}
+#menu .menungang li a{
+    font-size: 20px;
+    color: #fff;
+    
+}
+#noidung{
+   
+}
+#menu .cd{ 
+   font-size: 20px;
+   max-width: 1400px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;  
+}
+#main{}
+#khung1{ 
+    height: auto;
+    justify-content: space-between;
+    display: flex;
+    width: 90%;
+    padding: 0;
+    margin: 0;
+    margin: 0 auto;
+}
+#khung1 .trai{
+    width: 45%;
+    padding: 100px;
+}
+#khung1 .home{
+    font-size: 45px;
+    padding: 2px;
+    font-weight: 500;
+}
+#khung1 .content{
+    line-height: 40px;
+    margin-top: 25px;
+    font-size: 22px;
+}
+#khung1 .khu{
+    padding: 10px;
+    width: max-content;
+    border: 1px solid #000;
+    font-size: 22px;
+    background-color: #fff;
+    margin-top: 25px;
+}
+#khung1 .phai{
+    width: 45%;
+    margin-top: 100px;
+}
+.maunen{
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+}
+#khung2{
+     /* display: flex; */
+  
+}
+#khung2 .title_service{
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    padding: 100px;
+}
+#khung2 .page{
+    padding-top: 40px;
+    line-height: 60px;
+    font-size: 55px;
+    font-weight: 900;
+}
+#khung2 .diris{
+    margin-top: 30px;
+    line-height: 40px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#khung2 .khungto1{  
+    display: flex;
+    justify-content: space-between;
+}
+#khung2 .khungcon{  
+   background-color: #fff;
+    width: 30%;
+    height: auto;
+}
+#khung2 .khungcon i{
+    padding: 15px;
+    font-size: 60px;
+}
+#khung2 .khungcon .bol{
+    font-size: 30px;
+    padding: 15px;
+}
+#khung2 .khungcon .dires{
+    padding: 15px;
+    line-height: 40px;
+    font-size: 20px;
+}
+#khung2 .kekhung{
+    width: 100%;
+    padding-top: 30px;
+}
+#khung2 .kekhung1{
+    width: 100%;
+    padding-top: 150px;
+}
+#khung2 .khungto2{
+    display: flex;
+    justify-content: space-between;
+}
+#khung2 .khungto2 .khungcon2{
+    width: 30%;
+    height: auto;
+    background-color: #fff;
+}
+.khungcon2 .des{
+    font-size: 25px;
+    margin: 15px
+}
+.khungcon2 .mo{
+    padding-left: 40px;
+    margin: 15px;
+    color: rgb(179, 174, 174);
+}
+.khungcon2 .dam{
+    font-weight: bold;
+}
+.khungcon2 .noid{
+    color: rgb(179, 174, 174);
+    margin: 15px;
+    padding-bottom: 40px;
+}
+#khung3{
+    justify-content: space-between;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+}
+.den{
+    background-color: rgb(148, 146, 146);
+}
+.left{
+    width: 45%;
+    height: auto;
+}
+.left input.dodai{
+    margin-top: 25px;
+    padding: 5px;
+    width: 100%;
+    height: 45px;
+    background-color: #000;
+    color: rgb(128, 120, 120);
+}
+.right{
+    width: 45%;
+    height: auto;
+}
+.right textarea{
+    margin-top: 25px;
+    padding: 5px;
+    width: 100%;
+    height: 184px;
+    background-color: #000;
+}
+#footer {
+   
+    background-color: #000;
+    height: 60px;
+}
+#menuduoi .menuden{
+    display: flex;
+}
+#menuduoi .menuden{
+    font-size: 30px;
+    line-height: 60px;
+    margin-left: 200px;
+}
+
+#menuduoi .menuden li a{
+    color: #fff;
+    padding: 0 15px;
+}
